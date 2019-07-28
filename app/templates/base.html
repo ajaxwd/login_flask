@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+<head>
+  {% include 'head/header.html' %}
+</head>
+<body>
+  <header>
+    <p>hola mundo</p>
+  </header>
+  <div>
+    {% block content %}{% endblock %}
+  </div>
+  <footer>
+    {% include 'footer/footer.html' %}
+  </footer>
+</body>
+</html>
